@@ -1,0 +1,6 @@
+---
+title: "Contact Manager"
+type: "exercise"
+visibility: "onsite"
+description: "Integrate ActiveRecord into a Sinatra application."
+tags: "sinatra, activerecord"
