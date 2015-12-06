@@ -1,4 +1,11 @@
-<h1>Contacts</h1>
+<center><h1>Contacts</h1></center>
+<form class="" action="/contacts/:id" method="get">
+  <input type="text" name="search" value="" placeholder="Find a contact">
+  <input type="button" name="search" value="Search">
+
+</form>
+<br>
+<br>
 
 <ul>
   <% @contacts.each do |contact| %>

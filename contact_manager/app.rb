@@ -17,3 +17,9 @@ get '/contacts/:id' do
   @contact = Contact.where(id: id)
   erb :show
 end
+
+get '/contacts/search' do
+  name = params[:name]
+  @contact = Contact.where(first_name: name)
+  redirect 'contacts/:id'
+end
